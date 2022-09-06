@@ -1,0 +1,259 @@
+:root {
+    --primary-textcolor: #212121;
+    --secondary-textcolor: #757575;
+    --special-color: #2196F3;
+    --second-logocolor: #000000;
+    --additional-color: #FFFFFF;
+    --special-contactcolor: rgba(255, 255, 255, 0.6);
+    --primary-backgroundcolor: #FFFFFF;
+    --button-backgroundcolor: #F5F4FA;
+    --main-backgroundcolor: #F5F5F5;
+    --special-backgroundcolor: #2F303A;
+    --specialbutton-backgroundcolor: #188CE8;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--primary-backgroundcolor);
+    color: var(--primary-textcolor);
+}
+
+/* стилі для хедера*/
+.header-styles {
+    
+}
+.logo-styleheader {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--second-logocolor);
+}
+.firstpart-logo {
+    color: var(--special-color);
+}
+.navmenu {
+    font-family: 'Roboto', sans-serif;
+}
+.navmenu-items {
+    list-style-type: none;
+}
+
+.navmenu-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+    text-decoration: none;
+    color: var(--primary-textcolor);
+}
+.contact-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--secondary-textcolor);
+}
+.navmenu-item:hover,
+.contact-item:hover,
+.navmenu-item:focus,
+.contact-item:focus,
+.navmenu-item.current {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--special-color);
+}
+.contact {
+
+}
+.contact-items {
+    list-style-type: none;
+}
+
+/*стилі основних блоків*/
+.main-styles {
+    
+}
+.herobox {
+    background-color: var(--special-backgroundcolor);
+}
+.main-h {
+    font-weight: 900; 
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--additional-color);
+    text-transform: uppercase;
+}
+.second-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-textcolor);
+}
+.hiden-h {
+    visibility: hidden;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.buttons {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.buttons-item {
+    
+}
+.mainbutton {
+    background-color: var(--special-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--additional-color);
+}
+.mainbutton:hover,
+.mainbutton:focus {
+    background-color: var(--specialbutton-backgroundcolor);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--additional-color);
+}
+.buttons-itembox {
+    background-color: var(--button-backgroundcolor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em; 
+    color: var(--primary-textcolor);
+}
+.buttons-itembox:hover,
+.buttons-itembox:focus {
+    background-color: var(--special-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--additional-color);
+}
+
+.section-styles {
+    
+}
+.section {
+    list-style-type: none;
+}
+.section-item {
+    
+}
+.section-image {
+
+}
+.advantages-item {
+
+}
+.advantages-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.advantages-text {
+    line-height: 1.71;
+    color: var(--secondary-textcolor);
+}
+.team {
+    background-color: var(--button-backgroundcolor);
+}
+.team-item {
+    background-color: var(--additional-color);
+}
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--secondary-textcolor);
+}
+.section-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.00; 
+    letter-spacing: 0.06em;
+}
+.section-type {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-textcolor);
+}
+
+/*стилі футера*/
+.footer-styles {
+    background-color: var(--special-backgroundcolor);
+}
+.logo-stylefooter {
+    font-family: "Raleway";
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--additional-color);
+}
+.adress {
+    list-style-type: none;
+}
+.adress-itemmap {
+    color: var(--additional-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.adress-itemmap:hover,
+.adress-itemmap:focus {
+    color: var(--special-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.adress-itemcontact {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--special-contactcolor);
+}
+.adress-itemcontact:hover,
+.adress-itemcontact:focus {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--special-color);
+}

@@ -11,6 +11,7 @@
     --special-backgroundcolor: #2F303A;
     --specialbutton-backgroundcolor: #188CE8;
     --border-color: #ECECEC;
+    --border-second-color: #EEEEEE;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -238,6 +239,7 @@ button {
 .section-item {
     margin-right: 30px;
     margin-bottom: 30px;
+    border-bottom: 1px solid var(--border-second-color);
 }
 .section-item:nth-child(3n) {
     margin-right: 0;
